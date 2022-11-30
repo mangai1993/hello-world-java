@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
-COPY HelloWorld.java Helloworld.java
-RUN javac Helloworld.java
+FROM openjdk
+COPY HelloWorld.java HelloWorld.java
+RUN javac HelloWorld.java
 CMD java HelloWorld
